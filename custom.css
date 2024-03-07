@@ -18,3 +18,11 @@ button.btn-purchase:hover{
     color: white;
     background-color:  #EA4498;
 }
+
+.pink-text{
+    color:#EA4498;
+}
+
+#banner{
+    background-color:#f7d2f7;
+}
