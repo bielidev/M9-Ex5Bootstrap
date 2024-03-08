@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./assets/logo.png" style="height: 2rem;">
+                <img src="./assets/logo.png" style="height: 3rem; width: 8rem;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -48,8 +48,8 @@
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Sobre Nosotros
                         </a>
                         <ul class="dropdown-menu">
@@ -100,28 +100,282 @@
     </section>
     <section class="topics-section">
         <h3>Categorias destcadas</h3>
-        <div class="topics-box d-flex justify-content-around">
-            <article class="d-flex flex-column align-items-center">
-                <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;" src="./assets/kimetsu.png"
-                    alt="manga">
-                <span>Manga</span>
-            </article>
-            <article class="d-flex flex-column align-items-center">
-                <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;" src="./assets/deadpool.jpg"
-                    alt="americano">
-                <span>Americano</span>
-            </article>
-            <article class="d-flex flex-column align-items-center">
-                <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;" src="./assets/favole.png"
-                    alt="Europeo">
-                <span>Europeo</span>
-            </article>
-            <article class="d-flex flex-column align-items-center">
-                <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;"
-                    src="./assets/principito.jpg" alt="Libros">
-                <span>Libros</span>
-            </article>
+        <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                    <article class="d-flex flex-column align-items-center">
+                        <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;"
+                            src="./assets/kimetsu.png" alt="manga">
+                        <span>Manga</span>
+                    </article>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                    <article class="d-flex flex-column align-items-center">
+                        <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;"
+                            src="./assets/deadpool.jpg" alt="americano">
+                        <span>Americano</span>
+                    </article>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                    <article class="d-flex flex-column align-items-center">
+                        <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;"
+                            src="./assets/favole.png" alt="Europeo">
+                        <span>Europeo</span>
+                    </article>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                    <article class="d-flex flex-column align-items-center">
+                        <img class="rounded-circle  topic-cover" style="height:200px; width: 200px;"
+                            src="./assets/principito.jpg" alt="Libros">
+                        <span>Libros</span>
+                    </article>
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content d-flex justify-content-center" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center" id="manga-books">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">KINDOM 21</span>
+                                        <span>8.55€</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kitaro-11.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">KITARO</span>
+                                        <span>17,10€</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/c/a/call-of-the-night-10.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">CALL OF THE NIGHT 10</span>
+                                        <span>8,55€</span>
+                                    </article>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/a/c/acca-departamento-inspeccion-3.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">ACCA DEPT</span>
+                                        <span>9,14€</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/v/i/vida-mangaka-1.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">LA VIDA DE UN MANGAKA</span>
+                                        <span>9,45€</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/s/i/sigue-adelante-7.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">SIGUE ADELANTE</span>
+                                        <span>9,45€</span>
+                                    </article>
+                                </td>
+                             
+                            </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kitaro-11.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/c/a/call-of-the-night-10.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/a/c/acca-departamento-inspeccion-3.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                tabindex="0">
+                <div class="table-responsive">
+                    <table class="table align-middle">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                                <td>
+                                    <article class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="https://www.normacomics.com/media/catalog/product/cache/7a1ba298d0a01328efc31c734cb85928/k/i/kingdom-21.jpg">
+                                        <span class="topic-book-title pink-text fw-bold">Titulo</span>
+                                        <span>Precio</span>
+                                    </article>
+                                </td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
         </div>
+
+
     </section>
 
 </body>
