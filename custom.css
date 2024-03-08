@@ -2,7 +2,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
 button.btn-purchase{
     border: 2px solid #EA4498;
     background-color: white;
@@ -38,4 +37,14 @@ button.btn-purchase:hover{
     background-color: #EA4498;
     color: white;
     border-color: #EA4498;
+}
+
+a.foro-msg{
+  text-decoration: none;
+  color:#EA4498;
+  cursor: pointer;
+}
+
+a.foro-msg:hover{
+    color: #D290FC;
 }
