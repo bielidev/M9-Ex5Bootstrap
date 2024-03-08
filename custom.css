@@ -17,7 +17,7 @@ button.btn-purchase:hover{
 }
 
 .pink-text{
-    color:#EA4498;
+    color:#EA4498 !important;
 }
 
 #banner{
@@ -28,4 +28,14 @@ button.btn-purchase:hover{
     background-color: rgb(242, 146, 242);
     opacity:0.4;
     border-radius: 100%;
+}
+
+.pink-button{
+    border-color: #EA4498;
+}
+
+.pink-button:hover{
+    background-color: #EA4498;
+    color: white;
+    border-color: #EA4498;
 }
