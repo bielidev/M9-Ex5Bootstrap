@@ -49,13 +49,6 @@ a.foro-msg:hover {
   color: #d290fc;
 }
 
-section.novedades {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-row: 2fr 2fr;
-}
-
 article.novedad {
   align-items: center;
 }
-
