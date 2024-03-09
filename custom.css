@@ -1,62 +1,61 @@
-*{
-    font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-button.btn-purchase{
-    border: 2px solid #EA4498;
-    background-color: white;
-    border-radius: 20px;
-    padding:5px 10px;
-    color: rgba(0, 0, 0, 0.65);
+button.btn-purchase {
+  border: 2px solid #ea4498;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
-button.btn-purchase:hover{
-    color: white;
-    background-color:  #EA4498;
+button.btn-purchase:hover {
+  color: white;
+  background-color: #ea4498;
 }
 
-.pink-text{
-    color:#EA4498 !important;
+.pink-text {
+  color: #ea4498 !important;
 }
 
-#banner{
-    background-color:#f7d2f7;
+#banner {
+  background-color: #f7d2f7;
 }
 
-.topic-cover:hover{
-    background-color: rgb(242, 146, 242);
-    opacity:0.4;
-    border-radius: 100%;
+.topic-cover:hover {
+  background-color: rgb(242, 146, 242);
+  opacity: 0.4;
+  border-radius: 100%;
 }
 
-.pink-button{
-    border-color: #EA4498;
+.pink-button {
+  border-color: #ea4498;
 }
 
-.pink-button:hover{
-    background-color: #EA4498;
-    color: white;
-    border-color: #EA4498;
+.pink-button:hover {
+  background-color: #ea4498;
+  color: white;
+  border-color: #ea4498;
 }
 
-a.foro-msg{
+a.foro-msg {
   text-decoration: none;
-  color:#EA4498;
+  color: #ea4498;
   cursor: pointer;
 }
 
-a.foro-msg:hover{
-    color: #D290FC;
+a.foro-msg:hover {
+  color: #d290fc;
 }
 
-
-section.novedades{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-row: 2fr 2fr;
+section.novedades {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-row: 2fr 2fr;
 }
 
-article.novedad{
-    align-items: center;
+article.novedad {
+  align-items: center;
 }
 
