@@ -15,7 +15,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="vh-100 d-flex flex-column">
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
@@ -62,7 +62,7 @@
       <button class="btn-purchase btn-small ml-3 fw-bold">Compra</button>
     </div>
   </nav>
-  <main>
+  <main class="d-flex flex-column flex-grow-1">
     <!-- CONTACT US SECTION -->
     <section class="section contact mt-5"">
       <div class=" container">
@@ -103,17 +103,23 @@
       <div class="container mt-5 mb-5 w-50">
         <h2 class="text-center mb-4 pink-text">Suscríbete para recibir las últimas novedades</h2>
         <form class="d-flex flex-column">
-          <div class="mb-3">
-            <label for="nombre" class="form-label fw-bold">Nombre:</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+          <div class="mb-3 row align-items-center">
+            <label for="nombre" class="form-label fw-bold col-12 col-md-3">Nombre:</label>
+            <div class="col-12 col-md-9">
+              <input type="text" class="form-control" id="nombre" >
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label fw-bold">Correo Electrónico:</label>
-            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+          <div class="mb-3 row align-items-center">
+            <label for="email" class="form-label fw-bold col-12 col-md-3">Correo Electrónico:</label>
+            <div class="col-12 col-md-9">
+              <input type="email" class="form-control" id="email" >
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="telefono" class="form-label fw-bold">Teléfono:</label>
-            <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+          <div class="mb-3 row align-items-center">
+            <label for="telefono" class="form-label fw-bold col-12 col-md-3">Teléfono:</label>
+            <div class="col-12 col-md-9">
+              <input type="tel" class="form-control" id="telefono" >
+            </div>
           </div>
           <button type="submit" class="btn btn-purchase align-self-center">Suscribirse</button>
         </form>
@@ -121,7 +127,7 @@
     </section>
   </main>
   <!-- FOOTER -->
-  <footer class="bg-black text-center py-5 mt-5">
+  <footer class="bg-black text-center py-5">
     <div class="container px-5">
       <div class="text-white-50 small">
         <div class="mb-2">&copy; itbielidev - ITB - Educational Project</div>
